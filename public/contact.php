@@ -1,6 +1,6 @@
  <?php 
         include('../includes/header.php');
-        include('../includes/user_auto_contact_update.php');
+        include('../backend/user_auto_contact_update.php');
 ?>
  <!-- contact us section -->
  <div class="container my-5 mt-5 pt-5">
@@ -53,5 +53,5 @@
  </div>
 
  <?php 
-        include('../includes/footer.php')
+        include('../includes/footer.php');
      ?>

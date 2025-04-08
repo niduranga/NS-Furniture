@@ -7,7 +7,7 @@
     <div class="d-flex justify-content-center mb-4">
         <h2>Register</h2>
     </div>
-    <form action="../includes/functions.php" Method="POST">
+    <form action="../backend/register.php" Method="POST">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name">

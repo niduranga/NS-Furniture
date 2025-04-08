@@ -8,11 +8,11 @@ session_start();
         }
         else
         {
-            include_once('../includes/db.php');
+            include_once('../backend/db.php');
         }
     }
     else
     {
-        include_once('../includes/db.php');
+        include_once('../backend/db.php');
     }
 ?>
