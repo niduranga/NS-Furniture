@@ -1,0 +1,112 @@
+/* Center the contact information */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.carousel-item img {
+  object-fit: cover; /* Crop instead of stretching */
+  width: 100%;
+  height: auto; /* Responsive height */
+  max-height: 300px; /* Adjust for mobile */
+}
+
+/* below aection image with text */
+.scroll-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+}
+
+/* expolor section css */
+.btn-custom {
+  background-color: #d4a045;
+  color: white;
+  font-weight: bold;
+}
+.btn-custom:hover {
+  background-color: #b88a3c;
+}
+
+/* footer css */
+.footer-top {
+  background-color: #212529;
+  color: white;
+  padding: 20px 0;
+}
+.footer-bottom {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-links a {
+  color: black;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  color: black;
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+/* back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #d4a045;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.back-to-top:hover {
+  background-color: #b88a3c;
+}
+
+/* No orderplace page css */
+.empty-orders {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.empty-icon {
+  font-size: 80px;
+  color: #888;
+}
+.btn-shop {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #212529;
+  color: white;
+  text-decoration: none;
+}
+.btn-shop:hover {
+  background-color: rgb(49, 50, 51);
+}

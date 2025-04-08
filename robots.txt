@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /members/
+Disallow: /uploads/
+Allow: /assets/
+Allow: /public/
