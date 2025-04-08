@@ -72,6 +72,10 @@ switch ($page) {
     case 'login':
         header('location:public/login.php?page=login');  // Login page for public users
         break;
+
+    case 'forget-password':
+        header('location:public/forgot-password.php?page=forget-password');
+        break;
         
     case 'register':
         header('location:public/register.php?page=register'); // Register page for public users
